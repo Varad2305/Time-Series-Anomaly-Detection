@@ -21,3 +21,7 @@ You can reproduce the results by the following command :
 For example, if you want to reproduce the results of LSTMED on the realAdExchange dataset, the command would be : 
 
 `python3 baselines.py ./NAB/data/readAdExchange/ LSTMED`
+
+The results will be written in a file by the name : `baseline_results.csv`
+
+## Reproducing model results
