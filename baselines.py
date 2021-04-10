@@ -1,8 +1,7 @@
+# Imports
 import pandas as pd
 import numpy as np
-import sys
-import os
-import time
+import sys,os,time
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report,roc_auc_score
 from sklearn.preprocessing import MinMaxScaler
