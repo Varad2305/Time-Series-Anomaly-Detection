@@ -25,3 +25,12 @@ For example, if you want to reproduce the results of LSTMED on the realAdExchang
 The results will be written in a file by the name : `baseline_results.csv`
 
 ## Reproducing model results
+You can reproduce the results of the model on any of the datasets by the following command : 
+
+`python3 model.py /path/to/NAB/directory/`
+
+For example, if you want to reproduce the results of LSTMED on the realAdExchange dataset, the command would be : 
+
+`python3 model.py ./NAB/data/readAdExchange/`
+
+The results will be written in a file by the name : `model_results.csv`
