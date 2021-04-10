@@ -15,9 +15,7 @@ The paper discusses and introduces the following four models as baselines:
 * Donut
 
 You can reproduce the results by the following command : 
-
 `python3 baselines.py /path/to/NAB/directory/ model_name`
 
 For example, if you want to reproduce the results of LSTMED on the realAdExchange dataset, the command would be : 
-
 `python3 baselines.py ./NAB/data/readAdExchange/ LSTMED`
