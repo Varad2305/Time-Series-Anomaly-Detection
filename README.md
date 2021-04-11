@@ -4,11 +4,6 @@ This repository contains the open-source code for the paper titled "Attention-ba
 Detailed comparative results have been given in the paper. This repository has been made for reproducibility of the paper.
 
 
-
-## Do this before running anything
-1. Clone the [DeepADoTS](https://github.com/KDD-OpenSource/DeepADoTS) in the same directory
-2. Clone the [Numenta Anomaly Benchmark](https://github.com/numenta/NAB) repo in the same directory
-
 ## Comparison of the proposed model with existing and previous state-of-the-art models
 1. On the basis of F-Score:
 
