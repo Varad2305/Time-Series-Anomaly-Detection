@@ -73,6 +73,7 @@ For example, if you want to reproduce the results of LSTMED on the realAdExchang
 
 The results will be written in a file by the name : `model_results.csv`
 
+## License
 
 MIT License
 
