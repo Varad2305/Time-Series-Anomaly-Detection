@@ -82,11 +82,11 @@ def get_metrics_by_thresholds(y_test: list, score: list, thresholds: list):
 	Input : Test actual values, all anomaly scores, list of thresholds to be testes
 	Output : Yields performance metrics for each threshold in the list
 	"""
-    
+	
 	for threshold in thresholds:
-        anomaly = binarize(score, threshold=threshold)
-        metrics = get_accuracy_precision_recall_fscore(y_test, anomaly)
-        yield (anomaly.sum(), *metrics)      
+		anomaly = binarize(score, threshold=threshold)
+		metrics = get_accuracy_precision_recall_fscore(y_test, anomaly)
+		yield (anomaly.sum(), *metrics)      
 
 def binarize(score, threshold=None):
 	"""
@@ -105,10 +105,10 @@ def get_accuracy_precision_recall_fscore(y_true: list, y_pred: list):
 	accuracy = accuracy_score(y_true, y_pred)
 	precision, recall, f_score, _ = prf(y_true, y_pred, average='binary', warn_for=())
 	if precision == 0 and recall == 0:
-        f01_score = 0	
+		f01_score = 0	
 	else:
-        f01_score = fbeta_score(y_true, y_pred, average='binary', beta=0.1)
+		f01_score = fbeta_score(y_true, y_pred, average='binary', beta=0.1)
 	return accuracy, precision, recall, f_score, f01_score      
 
 def threshold(score):
-    return np.nanmean(score) + 2 * np.nanstd(score)  
+	return np.nanmean(score) + 2 * np.nanstd(score)  

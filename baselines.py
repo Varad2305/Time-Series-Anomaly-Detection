@@ -36,7 +36,8 @@ for filename in os.listdir(directory):
 	data_sheet = pd.read_csv(dataset,parse_dates=True)
 
 	#Get window size
-	window_size = (int)(get_window_size(data_sheet))
+	_,window_size = get_window_size(data_sheet)
+	window_size = (int)(window_size)
 	
 	print("window_size: "+str(window_size))
 	
