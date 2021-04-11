@@ -1,9 +1,9 @@
 # Time-Series-Anomaly-Detection
-This repository contains the open-source code for the paper titled "Attention-based Bi-LSTM for Anomaly Detection on Time-Series Data" by Sanket Mishra, Varad Kshirsagar, Rohit Dwivedula and Chittaranjan Hota.
+This repository contains the open-source code for the paper titled *"Attention-based Bi-LSTM for Anomaly Detection on Time-Series Data"* by Sanket Mishra, Varad Kshirsagar, Rohit Dwivedula and Chittaranjan Hota.
 
 ## Model diagram
 ![frame](https://user-images.githubusercontent.com/43151489/114315014-bbf85080-9b1a-11eb-9c53-4df20c9468e2.png)
-
+*
 
 ## Comparison of the proposed model with existing and previous state-of-the-art models
 1. On the basis of average F-Score:
@@ -44,7 +44,7 @@ This repository contains the open-source code for the paper titled "Attention-ba
 | realTweets              | 0.165     | 0.132 | 0.117 | 0.127 | 0.182   |
 
 ## Reproducing baseline results
-The paper discusses and introduces the following four models as baselines:
+The paper discusses and introduces the following four models as baselines for this dataset:
 * LSTMED
 * DAGMM
 * REBM
