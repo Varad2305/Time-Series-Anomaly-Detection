@@ -3,6 +3,9 @@ This repository contains the open-source code for the paper titled "Attention-ba
 
 Detailed comparative results have been given in the paper. This repository has been made for reproducibility of the paper.
 
+## Model diagram
+![frame](https://user-images.githubusercontent.com/43151489/114315014-bbf85080-9b1a-11eb-9c53-4df20c9468e2.png)
+
 
 ## Comparison of the proposed model with existing and previous state-of-the-art models
 1. On the basis of average F-Score:
