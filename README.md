@@ -1,7 +1,5 @@
 # Time-Series-Anomaly-Detection
-This repository contains the open-source code for the paper titled "Attention-based Bi-LSTM for Anomaly Detection on Time-Series Data"
-
-Detailed comparative results have been given in the paper. This repository has been made for reproducibility of the paper.
+This repository contains the open-source code for the paper titled "Attention-based Bi-LSTM for Anomaly Detection on Time-Series Data" by Sanket Mishra, Varad Kshirsagar, Rohit Dwivedula and Chittaranjan Hota.
 
 ## Model diagram
 ![frame](https://user-images.githubusercontent.com/43151489/114315014-bbf85080-9b1a-11eb-9c53-4df20c9468e2.png)
