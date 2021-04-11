@@ -1,3 +1,4 @@
+https://img.shields.io/github/issues/Varad2305/Time-Series-Anomaly-Detection
 # Time-Series-Anomaly-Detection
 This repository contains the open-source code for the paper titled *"Attention-based Bi-LSTM for Anomaly Detection on Time-Series Data"* by Sanket Mishra, Varad Kshirsagar, Rohit Dwivedula and Chittaranjan Hota.
 
