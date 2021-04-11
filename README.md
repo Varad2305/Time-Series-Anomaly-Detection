@@ -44,7 +44,7 @@ This repository contains the open-source code for the paper titled *"Attention-b
 | realTweets              | 0.165     | 0.132 | 0.117 | 0.127 | 0.182   |
 
 ## Reproducing baseline results
-The paper discusses and introduces the following four models as baselines:
+The paper discusses and introduces the following four models as baselines for this dataset:
 * LSTMED
 * DAGMM
 * REBM
