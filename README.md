@@ -11,6 +11,7 @@ Detailed comparative results have been given in the paper. This repository has b
 
 ## Comparison of the proposed model with existing and previous state-of-the-art models
 1. On the basis of F-Score:
+
 |         Dataset         | Our Model | DeepAnT |   WG  | AdVec | Skyline | NumentaTM | Numenta | KNN CAD | HTM Java |
 |:-----------------------:|:---------:|:-------:|:-----:|:-----:|:-------:|:---------:|:-------:|:-------:|:--------:|
 | artificialWithNoAnomaly |     0     |    0    |   0   |   0   |    0    |     0     |    0    |    0    |     0    |
@@ -22,6 +23,7 @@ Detailed comparative results have been given in the paper. This repository has b
 |        realTweets       |   0.165   |  0.075  | 0.026 | 0.018 |  0.035  |   0.010   |  0.009  |  0.004  |   0.010  |
 
 2. On the basis of AUC:
+
 | Dataset                 | Our Model | FuseAD | DeepAnT | WG    | AdVec | Skyline | Numenta | HTM Java |
 |-------------------------|-----------|--------|---------|-------|-------|---------|---------|----------|
 | artificialWithNoAnomaly | 0         | 0      | 0       | 0     | 0     | 0       | 0       | 0        |
@@ -34,6 +36,7 @@ Detailed comparative results have been given in the paper. This repository has b
 
 ## Comparison of the proposed model with new baselines introduced by us
 1. On the basis of F-Score:
+
 | Dataset                 | Our Model | DAGMM | REBM  | Donut | LSTM-ED |
 |-------------------------|-----------|-------|-------|-------|---------|
 | artificialWithNoAnomaly | 0         | 0     | 0     | 0     | 0       |
