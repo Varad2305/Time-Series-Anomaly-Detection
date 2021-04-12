@@ -73,7 +73,7 @@ The results will be written in a file by the name : `model_results.csv`
 
 ## Note
 1. This project uses the [NAB](https://github.com/numenta/NAB) dataset. We have used a slightly modified version of the dataset for convenience. The data is exaclty the same as the one referred to earlier in this point.
-2. The project also uses code from the [DeepADoTS](https://github.com/KDD-OpenSource/DeepADoTS) repository for the baseline models. This repository is officially maintained by KDD. We have made small changes in the repository to resolve dependency issues. Hence, the modified code is added as a submodule in this repo. A few changes have also been made in the source code of some packages used in this project. We strongly recommend cloning the whole repo as is, and activating the virtual environment that comes with it. Hence, we have not provided a requirements.txt file.
+2. The project also uses code from the [DeepADoTS](https://github.com/KDD-OpenSource/DeepADoTS) repository for the baseline models. This repository is officially maintained by KDD. We have made small changes in the repository to resolve dependency issues. Hence, the modified code is added as a submodule in this repo. A few changes have also been made in the source code of some packages used in this project. While we have included a requirements.txt file, you'll either have to install tensorflow 1.13 to run the baselines or you'll have to change `import tensorflow as tf` to `import tensorflow.compat.v1 as tf` wherever you face an error, virtual environment included. This is because the DeepADoTS repo was written when tensorflow was still in version 1 and it hasn't been updated since.
 
 ## License
 
